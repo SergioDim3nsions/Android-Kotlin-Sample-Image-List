@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vasco.app.utils.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/tvPhotoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#6000"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#FFF"
+        android:textSize="16dp"
+        />
+
+
+</com.vasco.app.utils.SquareRelativeLayout>
