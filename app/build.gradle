@@ -6,7 +6,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.vasco.kotlinprueba2"
+        applicationId "com.vasco.kotlinSampleList"
         minSdkVersion 17
         targetSdkVersion 25
         versionCode 1
