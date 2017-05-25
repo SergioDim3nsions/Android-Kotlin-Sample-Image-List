@@ -1,10 +1,10 @@
 package com.vasco.app.utils
 
 import android.content.Context
+import android.support.constraint.ConstraintLayout
 import android.util.AttributeSet
-import android.widget.RelativeLayout
 
-class SquareRelativeLayout : RelativeLayout {
+class SquareConstraintLayout : ConstraintLayout {
 
     constructor(context: Context) : super(context)
 
